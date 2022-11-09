@@ -1,0 +1,14 @@
+@media screen and (max-width:1200px) {
+    .product-container{
+        width:90%;
+        flex-direction: column;
+        padding-right: 25px;
+       
+        align-items: center;
+       
+    }
+
+    .product-div{
+        border: 1px solid transparent;
+    }
+}

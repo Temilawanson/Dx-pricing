@@ -9,21 +9,25 @@ body{
 }
 /* Header section starts here */
 header{
-    border: 3px solid tomato;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
 }
 header h3{
-    text-align: center;
-    font-weight: bolder;
+    font-weight: bold;
+    margin: 10px 0;
 }
 header h2{
-    text-align: center;
     font-weight: lighter;
+    margin: 20px 0;
 }
 .button-holder{
     display: flex;
-    border: 3px solid blue;
-    justify-content: center;
     background: #D9D9D9;
+    border-radius: 5px;
+    padding: 0 15px;
+    align-items: center;
 }
     
 .button-holder button, p{
@@ -31,27 +35,54 @@ header h2{
 }
 .button-holder button{
     border: 1px solid white;
-    
+    background: white;
+    margin: 5px 15px 5px 5px;
+    border-radius: 5px;
 }
 /* Header section ends here */
 
 /* product section starts here */
 section{
-    border: 3px solid yellow;
-}
-.product-container{
-    border: 3px solid black;
+    border: 1px solid black;
     display: flex;
     justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.product-container{
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .product{
-    border: 3px solid tomato;
-    /* display: inline-block;
-    text-align: justify;
-    padding: 50px 25px; */
+    justify-content: flex-start;
+    margin: 30px 10px;
+    /* border: 3px solid tomato; */
 }
- .product span{
+span{
+    padding: 30px 0;
     font-weight: bold;
+}
+i{
+    padding-right: 5px;
+}
+.product-div{
+    border-left: 1px solid black;
+    margin: 20px 10px;
+    padding: 10px 0;
+}
+.product-div p{
+    font-weight: lighter;
+}
+.product-div button{
+    background: #3D3737;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 20px;
 }
 .product p{
     font-weight: lighter;
@@ -60,12 +91,18 @@ section{
     background: #3D3737;
     color: white;
     padding: 10px 20px;
-} 
-.first-div{
-    margin: 20px;
-    padding-left: 15px;
+    margin-bottom: 40px;
 }
-
+.first-div{
+    margin: 30px 0;
+    padding-left: 20px;
+}
+.first-div p{
+    margin: 20px 0;
+}
+.second-div{
+    padding-left: 20px;
+}
 
 
 
